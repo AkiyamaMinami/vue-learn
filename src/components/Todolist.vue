@@ -4,7 +4,7 @@
     Add Item
   </button>
   <ul>
-    <li v-for="(item, itemIndex) in valList">
+    <li v-for="(item, itemIndex) in valList" :key="itemIndex">
       {{ item.text }}
       <button @click="handleRemoveItem(itemIndex)">
         ×
