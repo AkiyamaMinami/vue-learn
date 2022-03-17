@@ -1,7 +1,7 @@
 <template>
-    <Todolist />
+  <Todolist />
 </template>
 
 <script setup lang="ts">
-import Todolist from "./components/Todolist.vue";
+import Todolist from './components/Todolist.vue'
 </script>
