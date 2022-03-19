@@ -17,6 +17,8 @@
     - 相关依赖的安装 => eslint-plugin-vue@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint@latest
     - 使用@antfu/eslint-config 集成配置
 5. git 规范
-    - git commit 信息规范 => 增加 hook 配合 eslint 进行规范 => 报错提交失败
+    - git commit 提交规范 => 增加 hook 配合 eslint 进行规范 => 报错提交失败
     - husky 管理 git hook => pnpm i husky -d / npx husky install
     - 设置 hook => npx husky add .husky/pre-commit "pnpm run lint"
+    - 任何规范都需要一个工具去校验，否则很难实现规范
+    - commit 信息规范 => 
