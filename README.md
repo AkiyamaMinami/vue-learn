@@ -21,4 +21,4 @@
     - husky 管理 git hook => pnpm i husky -d / npx husky install
     - 设置 hook => npx husky add .husky/pre-commit "pnpm run lint"
     - 任何规范都需要一个工具去校验，否则很难实现规范
-    - commit 信息规范 => 
+    - commit 信息规范 => npx husky add .husky/commit-msg "node scripts/verify-commit-msg.js"
