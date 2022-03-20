@@ -22,3 +22,4 @@
     - 设置 hook => npx husky add .husky/pre-commit "pnpm run lint"
     - 任何规范都需要一个工具去校验，否则很难实现规范
     - commit 信息规范 => npx husky add .husky/commit-msg "node scripts/verify-commit-msg.js"
+6. unplugin-vue-components => 提高开发效率~ 减少手动重复import组件去使用，自动去收集你用了哪些组件，帮你按需引入 (暂不清楚是不是装了这个库的原因，开发热更新很卡)

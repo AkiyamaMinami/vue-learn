@@ -11,6 +11,7 @@
       </button>
     </li>
   </ul>
+  <n-button>Default</n-button>
 </template>
 
 <script lang="ts" setup>
